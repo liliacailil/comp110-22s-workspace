@@ -1,4 +1,4 @@
-"""My first program for COMP110. (Saying Hello to the world and no-thing other than the world.)"""
+"""My first program for COMP110."""
 
 print("Hello, world.")
 
