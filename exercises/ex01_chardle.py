@@ -19,7 +19,7 @@ if len(word) == 5:
             print(single_character + " found at index 3")
             instances = instances + 1
         if word[4] == single_character:
-            print(single_character + "found at index 4")
+            print(single_character + " found at index 4")
             instances = instances + 1
         if instances == 1:
             print("1 instance of " + single_character + " found in " + word)
@@ -30,7 +30,9 @@ if len(word) == 5:
                 print(str(instances) + " instances of " + single_character + " found in " + word)
     else:
         print("Error: Character must be a single character.")
+        exit()
 else:
     print("Error: Word must contain 5 characters.")
+    exit()
 
 __author__ = "730408031"
